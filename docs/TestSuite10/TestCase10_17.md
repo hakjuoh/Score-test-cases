@@ -4,12 +4,13 @@
 
 Pre-condition: The developer is on the CC View page with the working branch open. Some Deleted CCs are shown in the list may be with “Deleted” state is selected in the state filter box. The developer opens the ASCCP to see its detail.
 
-
-
 ### Test Assertion:
 
-1. The developer user can restore a deleted ASCCP whose ACC is still alive.
-2. The developer user can restore a deleted ASCCP whose ACC is deleted. The UI shall display a flag in the ASCCP detail page that the ASCCP is in an invalid state and that its ACC is in the deleted state.
+#### Test Assertion #1
+The developer user can restore a deleted ASCCP whose ACC is still alive.
+
+#### Test Assertion #2
+The developer user can restore a deleted ASCCP whose ACC is deleted. The UI shall display a flag in the ASCCP detail page that the ASCCP is in an invalid state and that its ACC is in the deleted state.
 
 ### Test Step Pre-condition:
 
@@ -23,11 +24,11 @@ Pre-condition: The developer is on the CC View page with the working branch open
 1. The oagi developer logs into score.
 2. He visits the CC list page, and filters CCs based on state “Deleted”.
 3. He opens the ASCCP11017odel and restores it.
-4. Verify that the has been active and that it is in WIP state. (Assertion #1)
+4. Verify that the has been active and that it is in WIP state. (Assertion [#1](#test-assertion-1))
 5. The developer visits the CC list page and opens the ASCCP21017devxdel.
 6. He tries to restore it.
-7. Verify that there is no Restore button or it is disabled. (Assertion #1)
+7. Verify that there is no Restore button or it is disabled. (Assertion [#1](#test-assertion-1))
 8. The developer visits the CC list page and opens the ASCCP31017odel.
 9. He restores the ASCCP31017odel.
 10. He expands the tree of the ASCCP31017odel.
-11. Verify that there is a flag indicating that the ACC11017odel is deleted. (Assertion #2)
+11. Verify that there is a flag indicating that the ACC11017odel is deleted. (Assertion [#2](#test-assertion-2))

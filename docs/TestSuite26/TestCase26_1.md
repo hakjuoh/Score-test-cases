@@ -4,12 +4,13 @@
 
 Pre-condition: N/A
 
-
-
 ### Test Assertion:
 
-1. Link to the User Guide is available to the OAGIS developer and is resolved.
-2. Link to the User Guide is available to the end user and is resolved.
+#### Test Assertion #1
+Link to the User Guide is available to the OAGIS developer and is resolved.
+
+#### Test Assertion #2
+Link to the User Guide is available to the end user and is resolved.
 
 ### Test Step Pre-condition:
 
@@ -19,8 +20,8 @@ Pre-condition: N/A
 
 1. Login as an OAGIS developer.
 2. Click on the User Guide menu.
-3. Verify that the User Guide page is displayed. (Assertion #1)
+3. Verify that the User Guide page is displayed. (Assertion [#1](#test-assertion-1))
 4. Log out.
 5. Login as an end user.
 6. Click on the User Guide menu.
-7. Verify that the User Guide page is displayed. (Assertion #2)
+7. Verify that the User Guide page is displayed. (Assertion [#2](#test-assertion-2))

@@ -4,11 +4,11 @@
 
 Pre-condition: The ACC under test has revision number greater than 1 and is in WIP state.
 
-
-
 ### Test Assertion:
 
-1. The developer can change the properties of the ACC and save changes with the following business rules.
+#### Test Assertion #1
+The developer can change the properties of the ACC and save changes with the following business rules.
+
 	1. Component Type cannot be changed.
 	2. Abstract can only be changed from True to False, except when the Component Type is base where it should be locked as True.
 	3. Object Class Term and Namespace cannot be changed.
@@ -30,28 +30,28 @@ Pre-condition: The ACC under test has revision number greater than 1 and is in W
 
 1. An OAGi developer logs into the system.
 2. He visits the CC List page and opens the ACC106a
-3. Verify that the Component Type is the same with the previous revision and that it cannot be changed. (Assertion #1.1)
+3. Verify that the Component Type is the same with the previous revision and that it cannot be changed. (Assertion [#1](#test-assertion-1).1)
 4. He opens the “Application Area Base. Details” and creates a new revision.
-5. Verify that the Component Type is “Base (Abstract)” and that the Abstract field is False and cannot be changed. (Assertion #1.2)
+5. Verify that the Component Type is “Base (Abstract)” and that the Abstract field is False and cannot be changed. (Assertion [#1](#test-assertion-1).2)
 6. He opens the “Business Object Document. Details” and creates a new revision.
-7. Verify that the Component Type is “Semantics” and that the Abstract field is False and cannot be changed. (Assertion #1.2)
+7. Verify that the Component Type is “Semantics” and that the Abstract field is False and cannot be changed. (Assertion [#1](#test-assertion-1).2)
 8. He opens the “Change Status Extension. Details” and creates a new revision.
-9. Verify that the Component Type is “Extension” and that the Abstract field is False and cannot be changed. (Assertion #1.2)
+9. Verify that the Component Type is “Extension” and that the Abstract field is False and cannot be changed. (Assertion [#1](#test-assertion-1).2)
 10. He opens the “Container Instance Identifiers Group. Details” and creates a new revision.
-11. Verify that the Component Type is “Semantic Group” and that the Abstract field is False and cannot be changed. (Assertion #1.2)
+11. Verify that the Component Type is “Semantic Group” and that the Abstract field is False and cannot be changed. (Assertion [#1](#test-assertion-1).2)
 12. He opens the “Document Reference Base. Details” and creates a new revision.
-13. Verify that the Component Type is “Base (Abstract)” and that the Abstract field is True and cannot be changed. (Assertion #1.2)
+13. Verify that the Component Type is “Base (Abstract)” and that the Abstract field is True and cannot be changed. (Assertion [#1](#test-assertion-1).2)
 14. He opens the “Currency Exchange ABIE. Details” and creates a new revision.
-15. Verify that the Component Type is “Semantics” and that the Abstract field is True and it can be changed. (Assertion #1.2)
+15. Verify that the Component Type is “Semantics” and that the Abstract field is True and it can be changed. (Assertion [#1](#test-assertion-1).2)
 16. The developer changes Abstract to False and Updates the CC.
-17. Verify that the CC has been successfully updated. (Assertion #1.2)
+17. Verify that the CC has been successfully updated. (Assertion [#1](#test-assertion-1).2)
 18. The developer opens the ACC106a.
-19. Verify that the Object Class Term field is disabled. (Assertion #1.3)
-20. Verify that the Deprecated field is enabled. (Assertion #1.4)
+19. Verify that the Object Class Term field is disabled. (Assertion [#1](#test-assertion-1).3)
+20. Verify that the Deprecated field is enabled. (Assertion [#1](#test-assertion-1).4)
 21. …..
 22. The developer changes the Definition Source and the Definition field and Updates the ACC106a
-23. Verify that the ACC106a has been updated. (Assertion #1.5)
+23. Verify that the ACC106a has been updated. (Assertion [#1](#test-assertion-1).5)
 24. The developer clears the Definition field and updates the ACC106a
-25. Verify that a confirmation message saying that the definition is empty has been returned. (Assertion #1.5)
+25. Verify that a confirmation message saying that the definition is empty has been returned. (Assertion [#1](#test-assertion-1).5)
 26. The developer confirms its intentions to leave the Definition field blank.
-27. Verify that the ACC106a has been updated. (Assertion #1.5)
+27. Verify that the ACC106a has been updated. (Assertion [#1](#test-assertion-1).5)

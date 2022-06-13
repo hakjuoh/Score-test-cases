@@ -4,11 +4,10 @@
 
 Pre-condition: N/A
 
-
-
 ### Test Assertion:
 
-1. The name of the page should be “BIEs (Profiled Components, Nouns, BODs)”.
+#### Test Assertion #1
+The name of the page should be “BIEs (Profiled Components, Nouns, BODs)”.
 
 ### Test Step Pre-condition:
 
@@ -18,4 +17,4 @@ Pre-condition: N/A
 
 1. An OAGi developer logs into the system.
 2. He visits the View/Edit BIE page.
-3. Verify that the title is “BIEs (Profiled Components, Nouns, BODs)” (Assertion #1).
+3. Verify that the title is “BIEs (Profiled Components, Nouns, BODs)” (Assertion [#1](#test-assertion-1)).

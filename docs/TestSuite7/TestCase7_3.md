@@ -4,12 +4,13 @@
 
 Pre-condition: OAGi terminology has been selected
 
-
-
 ### Test Assertion:
 
-1. The first page used in creating a BIE, namely the page where a Business Context is selected should have the title “Create BIE (Profiled Component, Noun, BOD)”.
-2. The second page used in creating a BIE, namely the page where a top level concept is selected, should have the title “Create BIE (Profiled Component, Noun, BOD)”.
+#### Test Assertion #1
+The first page used in creating a BIE, namely the page where a Business Context is selected should have the title “Create BIE (Profiled Component, Noun, BOD)”.
+
+#### Test Assertion #2
+The second page used in creating a BIE, namely the page where a top level concept is selected, should have the title “Create BIE (Profiled Component, Noun, BOD)”.
 
 ### Test Step Pre-condition:
 
@@ -19,6 +20,6 @@ Pre-condition: OAGi terminology has been selected
 
 1. An OAGi developer logs into the system.
 2. He visits the Create BIE page.
-3. Verify that the title is “Profiled Component, Noun, BOD”. (Assertion #1)
+3. Verify that the title is “Profiled Component, Noun, BOD”. (Assertion [#1](#test-assertion-1))
 4. He chooses a business context and clicks the Next button
-5. Verify that the title is “Profiled Component, Noun, BOD”. (Assertion #2)
+5. Verify that the title is “Profiled Component, Noun, BOD”. (Assertion [#2](#test-assertion-2))

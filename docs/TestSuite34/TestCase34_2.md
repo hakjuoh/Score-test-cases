@@ -4,11 +4,10 @@
 
 Pre-condition: N/A
 
-
-
 ### Test Assertion:
 
-1. The developer cannot create a brand-new Agency ID List.
+#### Test Assertion #1
+The developer cannot create a brand-new Agency ID List.
 
 ### Test Step Pre-condition:
 
