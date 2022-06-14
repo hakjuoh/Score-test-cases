@@ -10,10 +10,10 @@ Pre-condition: N/A
 
 ### Test Assertion:
 
-#### Test Assertion #1
+#### Test Assertion #9.1.1
 End user accounts can never be deleted.
 
-#### Test Assertion #2
+#### Test Assertion #9.1.2
 OAGi developer accounts can never be deleted.
 
 ### Test Step Pre-condition:
@@ -22,4 +22,4 @@ OAGi developer accounts can never be deleted.
 
 ### Test Step:
 
-1. Verify manually that such functionalities do not exist. (Assertion [#1](#test-assertion-1), [#2](#test-assertion-2))
+1. Verify manually that such functionalities do not exist. (Assertion [#1](#test-assertion-911), [#2](#test-assertion-912))

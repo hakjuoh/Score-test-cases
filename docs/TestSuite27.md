@@ -10,20 +10,20 @@ Pre-condition: N/A
 
 ### Test Assertion:
 
-#### Test Assertion #1
+#### Test Assertion #27.1.1
 The about page contains the following information
 
-##### Test Assertion #1.a
+##### Test Assertion #27.1.1.a
 The version of the application in the “score-web” field.
-##### Test Assertion #1.b
+##### Test Assertion #27.1.1.b
 The version of the gateway (api) in the “score-http-gateway” field.
-##### Test Assertion #1.c
+##### Test Assertion #27.1.1.c
 The version of the MYSQL database/server in the “MYSQL” field.
-##### Test Assertion #1.d
+##### Test Assertion #27.1.1.d
 The version of the Redis application (cache) in the “Redis” field.
-##### Test Assertion #1.e
+##### Test Assertion #27.1.1.e
 Link to the contributors of the application.
-##### Test Assertion #1.f
+##### Test Assertion #27.1.1.f
 The License of the application.
 
 ### Test Step Pre-condition:
@@ -33,4 +33,4 @@ The License of the application.
 ### Test Step:
 
 1. The developer visits the About page.
-2. Verify that the information mentioned in the Assertion [#1.exists](#test-assertion-1exists).
+2. Verify that the information mentioned in the Assertion [#1.exists](#test-assertion-2711exists).
